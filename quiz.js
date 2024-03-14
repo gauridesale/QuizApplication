@@ -1,5 +1,6 @@
 
 
+
 // Timer duration in seconds
 const timerDuration = 1 * 60; // 10 minutes in seconds
 
