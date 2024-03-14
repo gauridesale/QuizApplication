@@ -1,0 +1,93 @@
+/* start and quiz page CSS */
+
+body {
+    background-color: black;
+}
+
+#box {
+    margin: 10px 80px;
+    height: 700px;
+    overflow: hidden;
+    background-color:
+        rgb(195, 218, 207);
+}
+
+.start {
+    padding-top: 270px;
+}
+
+.quiz_box {
+    margin: 25px 20px;
+    height: 650px;
+    border: 3px solid black;
+
+}
+
+/* Quiz page CSS */
+
+.heading {
+    margin: 0 0.1px;
+    border-bottom: 2px solid black;
+
+}
+
+#question {
+    padding: 50px 50px 20px;
+    text-align: left;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#options {
+    padding: 20px 65px;
+    text-align: left;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#result {
+    padding-top: 200px;
+}
+
+/* css for next btn */
+.btn-n {
+    margin-left: 150px;
+}
+
+.submit_popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px 15px 0;
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    border-radius: 2%;
+    /* Ensure it appears above the overlay */
+    z-index: 1001;
+}
+
+.submit_btn {
+    margin: 10px 10px 0;
+    padding: 5px 20px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    /* Ensure it appears below the popup but above other content */
+}
